@@ -22,8 +22,8 @@ class LogisticRegression:
 
 
 At initilization of the Logistic Regression model:
-- `x` will be the input feature which should be a ($X<sup>m</sup>, n) matrix.
-- `y` will be the target feature which should be a ($Y<sup>m</sup>, 1) matrix.
+- `x` will be the input feature which should be a (X<sup>m</sup>, n) matrix.
+- `y` will be the target feature which should be a (Y<sup>m</sup>, 1) matrix.
 
 `alpha` is the learning rate and `num_iter` the number of iterations used in gradient descent. `verbose` if True will produce the detailed output of the cost function for diagnostic purposes, and `lambd` is the parameter used to perform regularization (L2 Regularization) on the model, it is of no effect if `lambd` is set to 0.0.
 
